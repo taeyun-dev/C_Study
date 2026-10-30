@@ -1,15 +1,14 @@
-//
-//  main.c
-//  C_Study
-//
-//  Created by 이태윤 on 10/28/26.
-//
-
-#include <stdlib.h>
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return EXIT_SUCCESS;
+int main(void)
+{
+    int i = 10;
+    char c = 69;
+    double f = 12.3;
+    
+    printf("i의 주소: %p\n", (void *)&i);
+    printf("c의 주소: %p\n", (void *)&c);
+    printf("c의 주소: %p\n", (void *)&f);
+    
+    return 0;
 }
