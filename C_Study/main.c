@@ -3,12 +3,14 @@
 int main(void)
 {
     int i = 10;
-    char c = 69;
-    double f = 12.3;
+    double f = 123;
+    int *pi = NULL;
+    double *pf = NULL;
     
-    printf("i의 주소: %p\n", (void *)&i); //변수 i의 주소 출력
-    printf("c의 주소: %p\n", (void *)&c); //변수 c의 주소 출력
-    printf("c의 주소: %p\n", (void *)&f); //변수 f의 주소 출력
+    pi = &i;
+    pf = &f;
+    printf("%p %p\n", pi, &i);
+    printf("%p %p\n", pf, &f);
     
     return 0;
 }
