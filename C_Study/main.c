@@ -3,7 +3,7 @@
 int main(void)
 {
     int i = 10;
-    double f = 123;
+    double f = 12.3;
     int *pi = NULL;
     double *pf = NULL;
     
